@@ -13,8 +13,10 @@ st.image(image, caption='Air Pollution image', use_column_width= True)
 st.header("An app that predicts PM2.5")
 
 
-train = pd.read_csv('C:/Users/user/Desktop/Personal/Ernest/Urban_air_pollution/dataset/Train.csv').head()
-st.write("Viewing the first five observations of the data", train)
+# train = pd.read_csv('C:/Users/user/Desktop/Personal/Ernest/Urban_air_pollution/dataset/Train.csv').head()
+# st.write("Viewing the first five observations of the data", train)
+
+
 #import model
 model = pickle.load(open("model_catboost.sav","rb"))
 
