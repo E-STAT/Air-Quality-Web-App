@@ -13,7 +13,7 @@ st.image(image, caption='Air Pollution image', use_column_width= True)
 st.header("An app that predicts PM2.5")
 
 
-train = pd.read_csv('../dataset/Train.csv').head()
+train = pd.read_csv('Train.csv').head()
 st.write("Viewing the first five observations of the data", train)
 
 
