@@ -4,6 +4,8 @@ import pickle
 from PIL import Image
 
 
+
+
 #set app title
 st.title("Air Quality Prediction Web App")
 image = Image.open('air_quality_image.jpg')
